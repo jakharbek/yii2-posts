@@ -1,0 +1,26 @@
+{
+    "name": "jakharbek/yii2-posts",
+    "description": "Posts",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "javharbek",
+            "email": "javhar_work@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "kartik-v/yii2-widget-switchinput": "*",
+        "kartik-v/yii2-editable": "*",
+        "kartik-v/yii2-date-range": "*",
+        "2amigos/yii2-ckeditor-widget": "^2.1",
+        "jakharbek/yii2-categories" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "jakharbek\\posts\\": "src"
+        }
+    }
+}
